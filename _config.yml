@@ -19,7 +19,7 @@ paginate:  60
 sass:
   style: compressed
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll/tagging
 
@@ -42,3 +42,7 @@ defaults:
       path: '_pages'
     values:
       permalink: /:basename:output_ext
+
+strict_front_matter: true
+liquid:
+  error_mode: strict
